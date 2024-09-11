@@ -1,0 +1,15 @@
+export const INTEREST_PAID_FREQUENCIES = {
+  MONTHLY: "monthly",
+  QUARTERLY: "quarterly",
+  ANNUALLY: "annually",
+  AT_MATURITY: "atMaturity",
+};
+
+export const VALIDATION_THRESHOLDS = {
+  MIN_INVESTMENT_TERM: 3,
+  MAX_INVESTMENT_TERM: 60,
+  MIN_PRINCIPAL_AMOUNT: 1000,
+  MIN_INTEREST_RATE: 0,
+};
+
+export const NUMBER_OF_MONTHS_IN_A_YEAR = 12;
